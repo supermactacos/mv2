@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'avantgarde-bk': ['var(--font-avantgarde-bk)'],
+        'avantgarde-bold': ['var(--font-avantgarde-bold)'],
+      },
     },
   },
   plugins: [],

@@ -1,101 +1,90 @@
-import Image from "next/image";
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <div className="min-h-screen bg-[#ebfc72]">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
+        <nav className="flex justify-between items-center py-6 w-full">
+          <div className="text-[#212e21]">
             <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/sk-logo.png"
+              alt="Sokorro Logo"
+              width={100}
+              height={100}
+
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
+          <div className="flex gap-8">
+            {["About", "Why", "Solutions", "Contact"].map((item) => (
+              <a
+                key={item}
+                href={`#${item.toLowerCase()}`}
+                className="text-[#212e21] hover:opacity-75 transition-opacity"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+        </nav>
+
+        <div className="pt-20 w-full">
+          <h1 className="text-8xl font-avantgarde-bold mb-4 text-[#212e21] max-w-3xl">
+            Sokorro...
+          </h1>
+          <h2 className="text-6xl font-avantgarde-bold leading-tight mb-16 max-w-3xl text-[#212e21]">
+            Your Data Center Advisory and IT Infrastructure Partner.
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start max-w-5xl">
+            <Image
+              src="/castle.jpg"
+              alt="Lighthouse on rocky coast"
+              width={800}
+              height={600}
+              className="rounded-sm  shadow-[0_15px_30px_rgba(0,0,0,0.3)]"
+            />
+            <div className="space-y-6">
+              <p className="text-lg font-avantgarde-bk text-[#212e21]">
+                Sokorro is a highly-experienced team of data center and network experts. We connect buyers of IT infrastructure with the best providers and solutions.
+              </p>
+              <p className="text-lg font-avantgarde-bk text-[#212e21]">
+                Sokorro demystifies the market for technology services empowering faster and better decision making. We'd love to show you how we help companies maximize the potential of their IT delivering optimized outcomes and minimizing headaches along the way.
+              </p>
+              <p className="text-lg font-avantgarde-bk text-[#212e21]">
+                At Sokorro, we simplify IT infrastructure procurement into a streamlined and enjoyable experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="py-20 w-full">
+          <h2 className="text-4xl font-bold mb-20 text-[#212e21] max-w-3xl">
+            Solving complex IT challenges, together.
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-5xl">
+            <div className="space-y-6">
+              <p className="text-lg font-avantgarde-bk text-[#212e21]">
+                Our team is dedicated to helping you navigate the complex and dynamic market landscape ensuring you find the ideal solutions tailored to your specific needs.
+              </p>
+              <p className="text-lg font-avantgarde-bk text-[#212e21]">
+                Sokorro shoulders the burden of sales engagement managing the vendor selection and quoting process guiding you to the optimal contract terms and pricing.
+              </p>
+            </div>
+            <Image
+              src="/rock1.png"
+              alt="Rock climbing scene"
+              width={800}
+              height={600}
+              className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)]"
+            />
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
-  );
+  )
 }
+
