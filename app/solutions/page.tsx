@@ -63,11 +63,11 @@ export default function Solutions() {
               <div className="max-w-5xl space-y-8">
                 <h3 className="text-3xl font-avantgarde-bold text-[#212e21] mb-6">Cloud</h3>
                 <Image
-                  src="/cloud.jpg"
+                  src="/5.avif"
                   alt="Cloud Computing Services"
                   width={1200}
-                  height={600}
-                  className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full"
+                  height={300}
+                  className="rounded-sm shadow-[0_15px_30px_rgba(0,0,0,0.3)] w-full h-[400px] object-cover"
                 />
                 <div className="space-y-6">
                   <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21]">
@@ -85,7 +85,7 @@ export default function Solutions() {
               <div className="max-w-5xl space-y-8">
                 <h3 className="text-3xl font-avantgarde-bold text-[#212e21] mb-6">Network</h3>
                 <Image
-                  src="/network.jpg"
+                  src="/tester.jpg"
                   alt="Network Infrastructure"
                   width={1200}
                   height={600}
