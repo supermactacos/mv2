@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import { Button } from "@/components/ui/button";
 
 // Define the navigation items with their paths
 const navItems = [
@@ -39,6 +40,13 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
+            <Button 
+              variant="default"
+              size="lg"
+              onClick={() => window.location.href = '/contact'}
+            >
+              Get In Touch
+            </Button>
           </div>
         </div>
       )}
@@ -52,7 +60,7 @@ export default function Navbar() {
             className="w-[60px] md:w-[100px]"
           />
         </Link>
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <Link
               key={item.name}
@@ -62,6 +70,12 @@ export default function Navbar() {
               {item.name}
             </Link>
           ))}
+          <Button 
+            variant="default"
+            size="lg"
+          >
+            Get In Touch
+          </Button>
         </div>
         <button 
           className="md:hidden text-[#212e21]"
