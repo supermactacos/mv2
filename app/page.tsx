@@ -19,11 +19,16 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             <div className="pt-6 md:pt-20">
-              <h1 className="mb-2 md:mb-4 max-w-4xl pr-60">
-                <GradualSpacing
-                  className="text-4xl md:text-9xl font-avantgarde-bold text-[#212e21] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] text-center"
-                  text="Sokorro..."
-                />
+              <h1 className="mb-2 md:mb-4 max-w-4xl pr-40 md:pr-60">
+                <span className="hidden md:block -ml-[1%]">
+                  <GradualSpacing
+                    className="text-4xl md:text-9xl font-avantgarde-bold text-[#212e21] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] text-center"
+                    text="Sokorro..."
+                  />
+                </span>
+                <span className="md:hidden text-4xl font-avantgarde-bold text-[#212e21] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)] text-center">
+                  Sokorro...
+                </span>
               </h1>
               <h2 className="text-3xl md:text-7xl font-avantgarde-bold leading-tight mb-6 md:mb-16 max-w-4xl text-[#212e21]">
                 Your Data Center Advisory and IT Infrastructure Partner.

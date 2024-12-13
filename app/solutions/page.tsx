@@ -22,7 +22,7 @@ export default function Solutions() {
                 Comprehensive IT Infrastructure Solutions
               </h1>
             </div>
-
+          
             {/* Colocation Section */}
             <div className="py-10 md:py-20 w-full">
               <div className="max-w-5xl space-y-8">
