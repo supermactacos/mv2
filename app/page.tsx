@@ -15,7 +15,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#ebfc72]">
       <main className="flex flex-col">
         <Navbar />
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             <div className="pt-6 md:pt-20">
@@ -33,7 +33,7 @@ export default function Home() {
               <h2 className="text-3xl md:text-7xl font-avantgarde-bold leading-tight mb-6 md:mb-16 max-w-4xl text-[#212e21]">
                 Your Data Center Advisory and IT Infrastructure Partner.
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
                 <div className="w-full aspect-[16/11] mb-6 md:mb-0">
                   <Image
@@ -50,7 +50,7 @@ export default function Home() {
                     Sokorro is a highly-experienced team of data center and network experts. We connect buyers of IT infrastructure with the best providers and solutions.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Sokorro demystifies the market for technology services empowering faster and better decision making. We'd love to show you how we help companies maximize the potential of their IT delivering optimized outcomes and minimizing headaches along the way.
+                    Mario demystifies the market for technology services empowering faster and better decision making. We'd love to show you how we help companies maximize the potential of their IT delivering optimized outcomes and minimizing headaches along the way.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
                     At Sokorro, we simplify IT infrastructure procurement into a streamlined and enjoyable experience.
@@ -63,7 +63,7 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-8 md:mb-20 text-[#212e21]">
                 Solving complex IT challenges, together.
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
                 <div className="space-y-4 md:space-y-6 mb-6 md:mb-0">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
@@ -91,4 +91,3 @@ export default function Home() {
     </div>
   )
 }
-
