@@ -47,13 +47,12 @@ export default function Home() {
                 </div>
                 <div className="space-y-4 md:space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Sokorro is a highly-experienced team of data center and network experts. We connect buyers of IT infrastructure with the best providers and solutions.
+                    Our highly-experienced team of data center and network experts. We connect buyers of IT infrastructure with the best providers and solutions.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Sokorro demystifies the market for technology services empowering faster and better decision making. We'd love to show you how we help companies maximize the potential of their IT delivering optimized outcomes and minimizing headaches along the way.
-                  </p>
+                  We demystify the technology services market, empowering faster and better decision-making. By managing the complexities of infrastructure procurement, we help companies maximize their IT investments while minimizing headaches.
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    At Sokorro, we simplify IT infrastructure procurement into a streamlined and enjoyable experience.
+                  Our proven process transforms complex IT decisions into streamlined, successful outcomes.
                   </p>
                 </div>
               </div>
