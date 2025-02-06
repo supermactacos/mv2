@@ -30,10 +30,10 @@ export default function About() {
                 </div>
                 <div className="space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Founded by industry veterans with decades of experience, Sokorro brings deep expertise in data center infrastructure, cloud computing, and network solutions.
+                  Founded by industry veterans, we bring decades of specialized expertise in enterprise data center infrastructure, cloud computing, and network solutions.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Our mission is to simplify the complex world of IT infrastructure procurement, helping organizations make informed decisions that drive their business forward.
+                  Our mission is to transform complex IT infrastructure decisions into strategic business advantages, empowering organizations to make confident, informed choices.
                   </p>
                 </div>
               </div>
@@ -47,19 +47,19 @@ export default function About() {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-avantgarde-bold text-[#212e21]">Expertise</h3>
                     <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                      We bring years of industry experience and deep technical knowledge to every engagement.
+                    We leverage decades of enterprise IT expertise to deliver optimal outcomes for every client engagement.
                     </p>
                   </div>
                   <div className="space-y-4">
                     <h3 className="text-2xl font-avantgarde-bold text-[#212e21]">Transparency</h3>
                     <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                      We believe in clear communication and honest guidance throughout the procurement process.
+                    We ensure clear communication and unbiased guidance at every step, maintaining complete vendor neutrality.
                     </p>
                   </div>
                   <div className="space-y-4">
                     <h3 className="text-2xl font-avantgarde-bold text-[#212e21]">Partnership</h3>
                     <p className="text-lg font-avantgarde-bk text-[#212e21]">
-                      We work as an extension of your team, aligned with your goals and objectives.
+                    We integrate seamlessly with your team, acting as trusted advisors fully aligned with your strategic objectives.
                     </p>
                   </div>
                 </div>
