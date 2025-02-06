@@ -30,7 +30,7 @@ export default function Why() {
                 </div>
                 <div className="space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Over the years Sokorro has helped hundreds of companies evaluate and compare technologies from our vendor ecosystem. We love solving problems, no matter the size, but have been lucky to work with prominent companies in the social media, gaming and broadcast industries. Thanks to this unique body of experience, Sokorro can guide you to the right solution, every time.
+                  We've guided hundreds of enterprises through complex technology decisions, with particular expertise in high-demand sectors like social media, gaming, and broadcast industries. This specialized experience enables us to consistently deliver optimal solutions for mission-critical infrastructure needs
                   </p>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export default function Why() {
                       Knowledgeable
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                      Sokorro is a team of seasoned IT professionals with decades of experience sourcing and implementing complex technology solutions. We understand the market for IT services is vast and characterized by constant change but it's our native habitat. We stay abreast of emerging technologies and service providers to ensure that our clients can leverage the latest and greatest. Sokorro has the market intelligence, experience and relationships to guide you to the right solution, every time.
+                    Our team brings decades of experience in sourcing and implementing complex technology solutions. In a rapidly evolving IT landscape, we maintain deep market intelligence and strong industry relationships. This ensures our clients always leverage the most effective solutions for their needs.
                     </p>
                   </div>
                   <div className="w-full aspect-[16/11]">
@@ -74,7 +74,7 @@ export default function Why() {
                       Objective
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                      While many IT providers rely upon the same underlying technologies the customer experience can be wildly different from one to the next. Commercial terms, provisioning timeframes and support are just a few of the variables that can affect your satisfaction. Sokorro knows the ins and outs of each vendor in our portfolio and provides unbiased insight into their differentiators. By clearly understanding your business needs our goal is to recommend vendors that not only deliver but become your trusted partner.
+                    While IT providers may use similar technologies, the customer experience varies dramatically. From commercial terms to provisioning timeframes and support quality - many factors impact your satisfaction. We understand the strengths and limitations of each vendor, providing unbiased insights into their capabilities. By deeply understanding your business needs, we recommend partners who will truly deliver on their promises.
                     </p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export default function Why() {
                       Convenient
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                      No more wasting time researching technologies and sitting through meetings with multiple vendors. Sokorro provides a single interface to thousands of IT infrastructure products and services enabling faster and better decision making. We create efficiencies in the diligence and procurement process by acting as your advocate, managing the sales process and leveraging our expertise to quickly guide you to the winner. Best of all we don't charge customers for our service.
+                    We eliminate the time-consuming process of researching technologies and managing multiple vendor relationships. As your advocate, we streamline the entire journey - from evaluation to procurement - leveraging our expertise to guide you to the optimal solution. Best of all? Our service is provided at no cost to you.
                     </p>
                   </div>
                   <div className="w-full aspect-[16/11] ">
