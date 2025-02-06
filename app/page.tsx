@@ -31,7 +31,7 @@ export default function Home() {
                 </span>
               </h1>
               <h2 className="text-3xl md:text-7xl font-avantgarde-bold leading-tight mb-6 md:mb-16 max-w-4xl text-[#212e21]">
-                Your Data Center Advisory and IT Infrastructure Partner.
+                Your Data Center Advisory and Infrastructure Partner.
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
