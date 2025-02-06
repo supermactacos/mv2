@@ -15,8 +15,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#ebfc72]">
       <main className="flex flex-col">
         <Navbar />
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
+       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             <div className="pt-6 md:pt-20">
               <h1 className="mb-2 md:mb-4 max-w-4xl pr-40 md:pr-60">
