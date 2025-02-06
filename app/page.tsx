@@ -1,21 +1,21 @@
-"use client";
+'use client';
 
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
 import { useState } from 'react';
 import Link from 'next/link';
-import TypingAnimation from "@/components/ui/typing-animation";
-import GradualSpacing from "@/components/ui/gradual-spacing";
+import TypingAnimation from '@/components/ui/typing-animation';
+import GradualSpacing from '@/components/ui/gradual-spacing';
 import Navbar from '@/components/Navbar';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#ebfc72]">
       <main className="flex flex-col">
         <Navbar />
-       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col items-center">
           <div className="w-full max-w-7xl pl-2 pr-2 md:pl-[8%]">
             <div className="pt-6 md:pt-20">
               <h1 className="mb-2 md:mb-4 max-w-4xl pr-40 md:pr-60">
@@ -49,9 +49,10 @@ export default function Home() {
                     Our highly-experienced team of data center and network experts. We connect buyers of IT infrastructure with the best providers and solutions.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  We demystify the technology services market, empowering faster and better decision-making. By managing the complexities of infrastructure procurement, we help companies maximize their IT investments while minimizing headaches.
+                    We demystify the technology services market, empowering faster and better decision-making. By managing the complexities of infrastructure procurement, we help companies maximize their IT investments while minimizing headaches.
+                  </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  Our proven process transforms complex IT decisions into streamlined, successful outcomes.
+                    Our proven process transforms complex IT decisions into streamlined, successful outcomes.
                   </p>
                 </div>
               </div>
@@ -87,5 +88,5 @@ export default function Home() {
         </div>
       </main>
     </div>
-  )
+  );
 }
