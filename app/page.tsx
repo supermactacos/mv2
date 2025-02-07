@@ -52,7 +52,7 @@ export default function Home() {
                   We simplify complex technology decisions by managing the entire procurement process - from vendor selection to final negotiation - helping organizations maximize their IT investments while minimizing complexity.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  Our proven methodology transforms challenging infrastructure decisions into clear, actionable outcomes.
+                  Our proven methodology transforms challenging infrastructure decisions into clear, actionable outcomes by applying industry-tested frameworks that reduce risk and accelerate implementation.
                   </p>
                 </div>
               </div>
@@ -66,10 +66,10 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
                 <div className="space-y-4 md:space-y-6 mb-6 md:mb-0">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  We navigate the complex infrastructure landscape to deliver solutions tailored to your specific needs. Our team manages the entire vendor engagement process, securing optimal contract terms and pricing while you focus on your core business.
+                  We navigate the complex infrastructure landscape to deliver solutions precisely matched to your enterprise requirements. Our team owns the entire vendor engagement process, securing optimal contract terms and pricing that protect your interests while you maintain focus on core business growth.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  From initial strategy through final implementation, we ensure every decision aligns with your business objectives and technical requirements. Our proven methodology maximizes the value of your infrastructure investments while eliminating the complexity of vendor management.
+                  Sokorro optimizes your technology investment strategy through expert vendor evaluation and contract negotiation, delivering measurable performance improvements and cost efficiencies across your IT infrastructure.
                   </p>
                 </div>
                 <div className="w-full aspect-[16/11]">
