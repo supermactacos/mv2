@@ -30,7 +30,7 @@ export default function Why() {
                 </div>
                 <div className="space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  We've guided hundreds of enterprises through complex technology decisions, with particular expertise in high-demand sectors like social media, gaming, and broadcast industries. This specialized experience enables us to consistently deliver optimal solutions for mission-critical infrastructure needs
+                  We've guided hundreds of enterprises through complex technology decisions, with particular expertise in high-demand sectors like social media, gaming, and broadcast industries. This specialized experience enables us to deliver transformative results for mission-critical infrastructure needs.
                   </p>
                 </div>
               </div>
@@ -44,7 +44,7 @@ export default function Why() {
                       Knowledgeable
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Our team brings decades of experience in sourcing and implementing complex technology solutions. In a rapidly evolving IT landscape, we maintain deep market intelligence and strong industry relationships. This ensures our clients always leverage the most effective solutions for their needs.
+                    Our team maintains deep market intelligence and strong industry relationships in the rapidly evolving IT landscape. This strategic positioning ensures our clients consistently access the most effective solutions for their unique requirements.
                     </p>
                   </div>
                   <div className="w-full aspect-[16/11]">
@@ -74,7 +74,7 @@ export default function Why() {
                       Objective
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    While IT providers may use similar technologies, the customer experience varies dramatically. From commercial terms to provisioning timeframes and support quality - many factors impact your satisfaction. We understand the strengths and limitations of each vendor, providing unbiased insights into their capabilities. By deeply understanding your business needs, we recommend partners who will truly deliver on their promises.
+                    While IT providers may use similar technologies, the customer experience varies dramatically. From commercial terms to provisioning timeframes and support quality - multiple factors impact your success. Our vendor-neutral analysis provides clear insights into capabilities and limitations, ensuring we recommend partners who consistently deliver on their commitments.
                     </p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export default function Why() {
                       Convenient
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    We eliminate the time-consuming process of researching technologies and managing multiple vendor relationships. As your advocate, we streamline the entire journey - from evaluation to procurement - leveraging our expertise to guide you to the optimal solution. Best of all? Our service is provided at no cost to you.
+                    We eliminate the time-consuming process of researching technologies and managing multiple vendor relationships. As your advocate, we orchestrate the entire journey - from evaluation to procurement - applying our expertise to identify the ideal solution. Best of all? Our service is provided at no cost to you.
                     </p>
                   </div>
                   <div className="w-full aspect-[16/11] ">
