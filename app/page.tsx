@@ -46,7 +46,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-4 md:space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  Our team of data center and network infrastructure experts connects enterprises with optimal solutions and providers, leveraging decades of industry experience.
+                  Our team of data center and network infrastructure experts connect enterprises with optimal solutions and providers, leveraging decades of industry experience.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
                   We simplify complex technology decisions by managing the entire procurement process - from vendor selection to final negotiation - helping organizations maximize their IT investments while minimizing complexity.
