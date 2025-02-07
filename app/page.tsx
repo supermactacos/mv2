@@ -69,7 +69,7 @@ export default function Home() {
                   We navigate the complex infrastructure landscape to deliver solutions tailored to your specific needs. Our team manages the entire vendor engagement process, securing optimal contract terms and pricing while you focus on your core business.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  Sokorro streamlines your entire IT procurement journey, from vendor evaluation to contract negotiation, ensuring optimal value and performance for your investment.
+                  From initial strategy through final implementation, we ensure every decision aligns with your business objectives and technical requirements. Our proven methodology maximizes the value of your infrastructure investments while eliminating the complexity of vendor management.
                   </p>
                 </div>
                 <div className="w-full aspect-[16/11]">
