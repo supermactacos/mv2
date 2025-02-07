@@ -46,13 +46,13 @@ export default function Home() {
                 </div>
                 <div className="space-y-4 md:space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Our highly-experienced team of data center and network experts. We connect buyers of IT infrastructure with the best providers and solutions.
+                  Our team of data center and network infrastructure experts connects enterprises with optimal solutions and providers, leveraging decades of industry experience.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    We demystify the technology services market, empowering faster and better decision-making. By managing the complexities of infrastructure procurement, we help companies maximize their IT investments while minimizing headaches.
+                  We simplify complex technology decisions by managing the entire procurement process - from vendor selection to final negotiation - helping organizations maximize their IT investments while minimizing complexity.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Our proven process transforms complex IT decisions into streamlined, successful outcomes.
+                  Our proven methodology transforms challenging infrastructure decisions into clear, actionable outcomes.
                   </p>
                 </div>
               </div>
@@ -60,16 +60,16 @@ export default function Home() {
 
             <div className="py-8 md:py-20">
               <h2 className="text-4xl md:text-5xl font-bold mb-8 md:mb-20 text-[#212e21]">
-                Solving complex IT challenges, together.
+              Strategic Partnership, Proven Results
               </h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
                 <div className="space-y-4 md:space-y-6 mb-6 md:mb-0">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Our team is dedicated to helping you navigate the complex and dynamic market landscape ensuring you find the ideal solutions tailored to your specific needs.
+                  We navigate the complex infrastructure landscape to deliver solutions tailored to your specific needs. Our team manages the entire vendor engagement process, securing optimal contract terms and pricing while you focus on your core business.
                   </p>
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Sokorro shoulders the burden of sales engagement managing the vendor selection and quoting process guiding you to the optimal contract terms and pricing.
+                  Sokorro streamlines your entire IT procurement journey, from vendor evaluation to contract negotiation, ensuring optimal value and performance for your investment.
                   </p>
                 </div>
                 <div className="w-full aspect-[16/11]">
