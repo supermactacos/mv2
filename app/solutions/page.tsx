@@ -36,10 +36,10 @@ export default function Solutions() {
                 />
                 <div className="space-y-6">
                   <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21]">
-                  The data center industry is experiencing unprecedented growth, driven by cloud computing demands and GPU-intensive workloads. This surge has created significant capacity constraints and pricing pressures, making strategic colocation decisions more critical than ever.
+                  The data center industry faces unprecedented growth, driven by cloud computing demands and GPU-intensive workloads. This surge creates capacity constraints and pricing pressures, making strategic colocation decisions vital to success.
                   </p>
                   <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21]">
-                  Our deep institutional knowledge enables us to rapidly identify optimal providers and facilities for your needs, securing the best contract terms and pricing while ensuring scalability for your future growth.
+                  Our institutional knowledge enables us to swiftly identify the ideal providers and facilities for your needs, securing advantageous contract terms while ensuring scalability for your future growth.
                   </p>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Solutions() {
                   In today's hybrid IT landscape, enterprise cloud solutions deliver critical infrastructure and services that drive business transformation. Strategic cloud adoption enables organizations to scale efficiently, enhance performance, and optimize costs while maintaining operational flexibility.
                   </p>
                   <p className="text-base md:text-lg font-avantgarde-bk text-[#212e21]">
-                  We understand that cloud decisions are complex and intertwined with your overall infrastructure strategy. Our expertise helps identify which cloud services complement your existing operations, ensuring any cloud adoption aligns with your business objectives and infrastructure requirements. We provide independent guidance on when and where cloud solutions make sense for your organization, always considering your existing investments and operational needs.
+                  We recognize that cloud decisions interweave with your broader technology strategy. Our expertise helps identify which services best complement your existing operations, ensuring adoption aligns with your business goals and requirements. We deliver independent guidance on optimal timing and implementation, always considering your current investments and operational needs.
                   </p>
                 </div>
               </div>
