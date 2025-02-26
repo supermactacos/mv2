@@ -1,16 +1,13 @@
-"use client";
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 
-// Define the navigation items with their paths
+// Define the navigation items with their paths (removed "Contact")
 const navItems = [
   { name: "About", path: "/about" },
   { name: "Why", path: "/why" },
-  { name: "Solutions", path: "/solutions" },
-  { name: "Contact", path: "/contact" }
+  { name: "Solutions", path: "/solutions" }
 ];
 
 export default function Navbar() {
@@ -40,13 +37,11 @@ export default function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Button 
-              variant="default"
-              size="lg"
-              onClick={() => window.location.href = '/contact'}
-            >
-              Get In Touch
-            </Button>
+            <Link href="/contact" passHref>
+              <Button variant="default" size="lg">
+                Get In Touch
+              </Button>
+            </Link>
           </div>
         </div>
       )}
@@ -70,12 +65,11 @@ export default function Navbar() {
               {item.name}
             </Link>
           ))}
-          <Button 
-            variant="default"
-            size="lg"
-          >
-            Get In Touch
-          </Button>
+          <Link href="/contact" passHref>
+            <Button variant="default" size="lg">
+              Get In Touch
+            </Button>
+          </Link>
         </div>
         <button 
           className="md:hidden text-[#212e21]"

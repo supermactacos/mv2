@@ -30,7 +30,8 @@ export default function Why() {
                 </div>
                 <div className="space-y-6">
                   <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                  We've guided hundreds of enterprises through complex technology decisions, with particular expertise in high-demand sectors like social media, gaming, and broadcast industries. This specialized experience enables us to deliver transformative results for mission-critical infrastructure needs.
+                  We've helped hundreds of enterprises navigate sophisticated technology decisions with particular expertise in sectors like social media, gaming, and broadcasting. This specialized experience enables Sokorro to deliver transformative results for mission-critical infrastructure needs.
+
                   </p>
                 </div>
               </div>
@@ -44,7 +45,7 @@ export default function Why() {
                       Knowledgeable
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    Our team maintains deep market intelligence and strong industry relationships in the rapidly evolving IT landscape. This strategic positioning ensures our clients consistently access the most effective solutions for their unique requirements.
+                    Our multi-disciplined team delivers deep insights and strong industry relationships in the dynamic and rapidly evolving IT marketplace. We stay abreast of emerging technologies, services and vendors within our partner ecosystem to ensure clients can always access the most performant solutions available.
                     </p>
                   </div>
                   <div className="w-full aspect-[16/11]">
@@ -74,7 +75,7 @@ export default function Why() {
                       Objective
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    While IT providers may use similar technologies, the customer experience varies dramatically. From commercial terms to provisioning timeframes and support quality - multiple factors impact your success. Our vendor-neutral analysis provides clear insights into capabilities and limitations, ensuring we recommend partners who consistently deliver on their commitments.
+                    While IT providers may use similar technologies, the customer experience varies dramatically. From commercial terms to provisioning timeframes and quality of support, multiple factors impact your success. Our vendor-neutral analysis provides clear insights into capabilities and limitations, ensuring we recommend partners who consistently deliver.
                     </p>
                   </div>
                 </div>
@@ -86,7 +87,7 @@ export default function Why() {
                       Convenient
                     </h2>
                     <p className="text-lg md:text-xl font-avantgarde-bk text-[#212e21]">
-                    We eliminate the time-consuming process of researching technologies and managing multiple vendor relationships. As your advocate, we orchestrate the entire journey - from evaluation to procurement - applying our expertise to identify the ideal solution. Best of all? Our service is provided at no cost to you.
+                    We eliminate the time-consuming process of researching technologies, engaging multiple vendors for bids and qualifying and benchmarking proposals. As your advocate, we orchestrate the entire journey from evaluation and procurement to ongoing support. Best of all? Our service is provided at no cost to you.
                     </p>
                   </div>
                   <div className="w-full aspect-[16/11] ">
